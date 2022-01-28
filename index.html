@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <!-- this is our main div  -->
+    <div id="maindiv">
+<div id="player1div">
+    <h3>player 1</h3>
+    <button   onclick="player1shoot()"> shoot</button>
+    <h3>Health-  <span id="player1health">100</span></h3>
+    
+</div>
+<div id="player2div">
+    
+<h3>player 2</h3>
+<button  onclick="player2shoot()"> shoot</button>
+<h3>Health- <span id="player2health">100</span> </h3>
+    </div>
+
+</div>
+    </div>
+
+
+
+<!-- below div is our start game div  -->
+    <div id="startgamediv">
+<h3>Game <span id="numberofgame">1</span></h3>
+<hr>
+<button onclick="startgame()"  id="startbutton">Start Game</button>
+<h1>Player 1 Won <span id="player1win"> 0 </span></h1>
+<h1>Player 2 Won<span id="player2win"> 0 </span></h1>
+<h1 id="winningdiv"></h1>
+    </div>
+  
+</body>
+</html>

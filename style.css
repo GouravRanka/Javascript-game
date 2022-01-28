@@ -1,0 +1,48 @@
+#maindiv{
+   width:500px;
+   height: 500px;
+    background-color: black;
+    display: none;
+    margin: auto;
+    
+}
+.shootbutton{
+    background-color: red;
+    padding:10px;
+    margin-left: 13px;
+}
+#startbutton{
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 600;
+    background-color:	#D3D3D3;
+border: 2px solid rgb(44, 38, 38);
+border-radius: 8px;
+font-size: 20px;
+
+}
+
+#player1div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left:10px;
+    top:10px
+    
+}
+#player2div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+     left:70%;
+    top:10px 
+    
+
+}
+#winningdiv{
+    display: none;
+}
+
